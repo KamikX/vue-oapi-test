@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Datatable OAPI App</title>
+  </head>
+  <body>
+    <!-- <div id="data-table">
+      <data-table-component
+        data-url="https://www.google.com/"
+        edit-url="https://www.google.com/"
+        delete-url="https://www.google.com/"
+        is-super-admin="true"
+        available-actions="{}"
+        show-id-column="dev"
+      >
+      </data-table-component>
+    </div> -->
+
+    <div id="company-table">
+      <user-table
+        data-url="https://www.google.com/"
+        edit-url="https://www.google.com/"
+        delete-url="https://www.google.com/"
+        is-super-admin="true"
+        available-actions="{}"
+        show-id-column="dev"
+      >
+      </user-table>
+    </div>
+
+    <script type="module" src="/src/datatable/datatable.js"></script>
+    <script type="module" src="/src/company-table/company-table.js"></script>
+  </body>
+</html>
